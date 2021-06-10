@@ -1,6 +1,6 @@
-package org.jetbrains.plugins.template.services
+package com.github.imorate.persiandigits.services
 
-import org.jetbrains.plugins.template.MyBundle
+import com.github.imorate.persiandigits.MyBundle
 
 class MyApplicationService {
 
