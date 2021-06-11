@@ -1,19 +1,19 @@
 <idea-plugin>
     <id>com.github.imorate.persiandigits</id>
-    <name>persian-digits</name>
+    <name>Persian-Digits</name>
     <vendor>imorate</vendor>
 
     <!-- Product and plugin compatibility requirements -->
     <!-- https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
     <depends>com.intellij.modules.platform</depends>
 
-    <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="com.github.imorate.persiandigits.services.MyApplicationService"/>
-        <projectService serviceImplementation="com.github.imorate.persiandigits.services.MyProjectService"/>
-    </extensions>
-
-    <applicationListeners>
-        <listener class="com.github.imorate.persiandigits.listeners.MyProjectManagerListener"
-                  topic="com.intellij.openapi.project.ProjectManagerListener"/>
-    </applicationListeners>
+    <actions>
+        <action id="editor.EditorIllustrationAction"
+                class="editor.EditorIllustrationAction"
+                text="Convert to Persian Digits"
+                description="Converts to Persian digits"
+                icon="SdkIcons.Sdk_default_icon">
+            <add-to-group group-id="EditorPopupMenu" anchor="first"/>
+        </action>
+    </actions>
 </idea-plugin>
