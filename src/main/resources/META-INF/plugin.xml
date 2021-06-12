@@ -1,7 +1,10 @@
 <idea-plugin>
     <id>com.github.imorate.persiandigits</id>
     <name>Persian-Digits</name>
-    <vendor>imorate</vendor>
+    <version>1.0.0</version>
+    <vendor url="https://github.com/Imorate/persian-digits">
+        Amir Mohammad Hosseinlou
+    </vendor>
 
     <!-- Product and plugin compatibility requirements -->
     <!-- https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
@@ -14,6 +17,8 @@
                 description="Converts to Persian digits"
                 icon="SdkIcons.Sdk_default_icon">
             <add-to-group group-id="EditorPopupMenu" anchor="first"/>
+            <add-to-group group-id="EditMenu" anchor="first"/>
+            <keyboard-shortcut keymap="$default" first-keystroke="ctrl shift w"/>
         </action>
     </actions>
 </idea-plugin>
