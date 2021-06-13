@@ -8,4 +8,8 @@
 ### Added
 - Initial scaffold created from [IntelliJ Platform Plugin Template](https://github.com/JetBrains/intellij-platform-plugin-template)
 ## [1.0.0]
-### Add popup balloon
+### Added
+- Popup balloon
+## [1.0.1]
+### Changed
+- Plugin keyboard shortcut

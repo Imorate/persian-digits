@@ -18,7 +18,7 @@
                 icon="SdkIcons.Sdk_default_icon">
             <add-to-group group-id="EditorPopupMenu" anchor="first"/>
             <add-to-group group-id="EditMenu" anchor="first"/>
-            <keyboard-shortcut keymap="$default" first-keystroke="ctrl shift w"/>
+            <keyboard-shortcut keymap="$default" first-keystroke="ctrl shift q"/>
         </action>
     </actions>
 </idea-plugin>
