@@ -4,6 +4,7 @@
 
 ## [Unreleased]
 ## [1.1.1]
+## [1.1.1]
 ### Fixed
 - Character 8 and 9
 ## [1.0.1]
